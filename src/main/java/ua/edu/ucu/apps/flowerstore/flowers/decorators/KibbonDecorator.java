@@ -8,12 +8,12 @@ public class KibbonDecorator extends ItemDecorator {
 
     @Override
     public String getDescription() {
-        throw new UnsupportedOperationException();
+        return "Description";
     }
 
     @Override
     public double getPrice() {
-        throw new UnsupportedOperationException();
+        return 0;
     }
     
 }
