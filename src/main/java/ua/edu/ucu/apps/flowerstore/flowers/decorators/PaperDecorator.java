@@ -8,7 +8,7 @@ public class PaperDecorator extends ItemDecorator {
 
     @Override
     public String getDescription() {
-        throw new UnsupportedOperationException();
+        return "Description";
     }
 
     @Override
