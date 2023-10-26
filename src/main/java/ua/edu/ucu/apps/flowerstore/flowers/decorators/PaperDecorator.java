@@ -6,12 +6,10 @@ public class PaperDecorator extends ItemDecorator {
 
     public Item item;
 
-    @Override
     public String getDescription() {
         return "Description";
     }
 
-    @Override
     public double getPrice() {
         return 0;
     }
