@@ -6,7 +6,7 @@ public class PostDeliveryStrategy implements DeliveryStrategy {
 
     @Override
     public void deliver(Item[] items) {
-
+        System.out.println("Delivering...");
     }
     
 }
