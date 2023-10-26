@@ -13,7 +13,7 @@ public class PaperDecorator extends ItemDecorator {
 
     @Override
     public double getPrice() {
-        throw new UnsupportedOperationException();
+        return 0;
     }
     
 }
