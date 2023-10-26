@@ -9,7 +9,7 @@ public class DHLDeliveryStrategy implements DeliveryStrategy {
 
     @Override
     public void deliver(Item[] items) {
-
+        System.out.println("Delivering...");
     }
 
 }
